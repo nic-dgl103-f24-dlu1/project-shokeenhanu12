@@ -483,7 +483,9 @@ td {
     width: 150px;
   }
 
-  .hero h1 {
+  .hero h1,
+  h1,
+  .hero-text h1 {
     font-size: 4rem;
   }
 
@@ -494,16 +496,40 @@ td {
     padding: 0 0 20px 0;
   }
   h2,
-  .benefits h2 {
+  .benefits h2,
+  .facilities h2 {
     font-size: 3rem;
   }
 
-  .benefit-item h3 {
+  .benefit-item h3,
+  h3,
+  .facilities h3 {
     font-size: 2rem;
   }
   p,
   .benefit-item p,
-  table {
+  table,
+  .facilities p,
+  .hero-text p {
     font-size: 1.2rem;
+  }
+  .history p {
+    padding-bottom: 20px;
+  }
+
+  .team {
+    padding: 50px 0;
+  }
+  .team-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .facility-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .facility-item p {
+    width: 100%;
   }
 }
