@@ -267,3 +267,71 @@ td {
   opacity: 0.8;
 }
 
+/* Tablet view */
+@media screen and (min-width: 768px) {
+  .logo img {
+    height: 50px;
+    width: 100px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .nav-links ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-links li {
+    border: none;
+  }
+
+  .intro p {
+    padding: 10px 0;
+  }
+
+  .benefits {
+    padding: 30px 20px;
+  }
+}
+
+/* ------ Style rules for desktop ---------- */
+
+@media screen and (min-width: 1024px) {
+  .logo img {
+    height: 70px;
+    width: 150px;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .intro {
+    padding: 30px 0 50px;
+  }
+  .intro h2 {
+    padding: 0 0 20px 0;
+  }
+  h2,
+  .benefits h2 {
+    font-size: 3rem;
+  }
+
+  .benefit-item h3 {
+    font-size: 2rem;
+  }
+  p,
+  .benefit-item p,
+  table {
+    font-size: 1.2rem;
+  }
+}
