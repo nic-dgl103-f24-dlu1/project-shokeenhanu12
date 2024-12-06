@@ -612,9 +612,11 @@ td {
   .intro {
     padding: 30px 0 50px;
   }
+
   .intro h2 {
     padding: 0 0 20px 0;
   }
+
   h2,
   .benefits h2,
   .facilities h2 {
@@ -626,6 +628,7 @@ td {
   .facilities h3 {
     font-size: 2rem;
   }
+
   p,
   .benefit-item p,
   table,
@@ -633,6 +636,7 @@ td {
   .hero-text p {
     font-size: 1.2rem;
   }
+
   .history p {
     padding-bottom: 20px;
   }
@@ -640,6 +644,7 @@ td {
   .team {
     padding: 50px 0;
   }
+
   .team-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -651,5 +656,13 @@ td {
   }
   .facility-item p {
     width: 100%;
+  }
+
+  .contact-info {
+    padding-top: 120px;
+  }
+
+  .map {
+    padding: 50px 0;
   }
 }
