@@ -440,6 +440,12 @@ td {
 }
 
 .contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
 /* Footer */
 
 .site-footer {
