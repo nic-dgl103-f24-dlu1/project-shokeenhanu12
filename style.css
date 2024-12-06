@@ -39,7 +39,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #232323;
+  background: black;
   padding: 10px 20px;
   width: 100%;
   position: fixed;
@@ -101,6 +101,8 @@ footer {
   display: none;
   position: absolute;
   top: 100%;
+  background-color: black;
+
   right: 0;
   width: 100%;
   z-index: 2;
