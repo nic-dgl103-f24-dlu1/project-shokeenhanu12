@@ -415,6 +415,15 @@ td {
   color: #52d626;
 }
 
+.contact-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact-info a {
+  color: #fff;
+}
 /* Footer */
 
 .site-footer {
