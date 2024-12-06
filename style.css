@@ -160,8 +160,8 @@ footer {
 }
 
 .hero h1,
-.hero-text h1 {
-  font-size: 2em;
+.hero-text h1,
+.contact-info h1 {
   margin-bottom: 10px;
 }
 
@@ -223,7 +223,6 @@ footer {
 }
 
 .benefit-item p {
-  font-size: 0.9em;
   color: #fff;
 }
 
