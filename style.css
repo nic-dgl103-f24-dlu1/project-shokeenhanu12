@@ -39,7 +39,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #313131;
+  background: rgb(83, 83, 83);
   color: #fff;
   padding: 10px 20px;
   width: 100%;
@@ -103,7 +103,6 @@ footer {
   position: absolute;
   top: 100%;
   right: 0;
-  background: #232323;
   width: 100%;
   z-index: 2;
   text-align: center;
@@ -115,22 +114,22 @@ footer {
   padding: 0;
 }
 
-.nav-links li {
-  border-bottom: 1px solid #52d626;
+.nav-links a {
   padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  color: black;
+
+}
+
+.nav-links a:hover,
+.active {
+  background-color: #52d626;
   border-radius: 5px;
 }
 
-.nav-links li:hover,
-.active {
-  background-color: #52d626;
-}
 
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
 
 /* Toggle menu on checkbox checked */
 
@@ -177,7 +176,7 @@ p {
   display: inline-block;
   padding: 10px 20px;
   background: #52d626;
-  color: #fff;
+  color: black;
   text-decoration: none;
   border-radius: 5px;
   transition: 0.3s ease;
