@@ -433,6 +433,13 @@ td {
   padding: 20px;
 }
 
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
 /* Footer */
 
 .site-footer {
