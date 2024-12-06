@@ -67,17 +67,26 @@ header {
 .history .container,
 .team .container,
 .facilities .container,
+.contact-info,
+.contact-form div,
+.map,
+.cta,
+.faqs div,
 footer {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }
+
 /* Logo */
+
 .logo img {
   height: 50px;
   width: 90px;
 }
+
 /* Hamburger menu */
+
 .hamburger {
   display: block;
   font-size: 1.5em;
@@ -116,6 +125,7 @@ footer {
 .active {
   background-color: #52d626;
 }
+
 .nav-links a {
   color: #fff;
   text-decoration: none;
@@ -123,10 +133,13 @@ footer {
 }
 
 /* Toggle menu on checkbox checked */
+
 .menu-toggle:checked + .hamburger + .nav-links {
   display: block;
 }
+
 /* Hero Section Styles */
+
 .hero {
   position: relative;
   height: 100vh;
@@ -137,6 +150,7 @@ footer {
   align-items: center;
   color: #fff;
   text-align: center;
+  padding-top: 90px;
 }
 
 .hero-content {
