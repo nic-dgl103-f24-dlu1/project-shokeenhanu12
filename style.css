@@ -410,6 +410,11 @@ td {
   padding: 90px 20px 20px;
 }
 
+.contact-info h3 {
+  margin-top: 15px;
+  color: #52d626;
+}
+
 /* Footer */
 
 .site-footer {
