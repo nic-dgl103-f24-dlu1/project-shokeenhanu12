@@ -23,6 +23,18 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
 header {
   display: flex;
   justify-content: space-between;
