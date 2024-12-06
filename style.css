@@ -474,6 +474,31 @@ td {
 }
 
 /* ---------- FAQs ---------- */
+
+.faqs {
+  padding: 20px;
+  background: #fff;
+}
+
+.faqs h2 {
+  color: #52d626;
+  margin-bottom: 15px;
+}
+
+.faq {
+  margin-bottom: 15px;
+}
+
+.faq h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.faq p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
 /* Footer */
 
 .site-footer {
