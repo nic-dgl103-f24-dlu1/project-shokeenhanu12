@@ -192,7 +192,9 @@ p {
 .intro h2 {
   color: #52d626;
 }
+
 /* Benefits Section */
+
 .benefits {
   text-align: center;
   padding: 20px;
@@ -200,7 +202,6 @@ p {
 }
 
 .benefits h2 {
-  font-size: 1.8em;
   margin-bottom: 20px;
   color: #333;
 }
@@ -218,8 +219,8 @@ p {
   text-align: center;
 }
 
-.benefit-item h3 {
-  font-size: 1.2em;
+.benefit-item h3,
+.contact-info h3 {
   margin-bottom: 10px;
   color: #52d626;
 }
@@ -262,7 +263,7 @@ td {
 .about-hero {
   position: relative;
   width: 100%;
-  height: 100vh; /* Adjust height to fit your needs */
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -287,7 +288,7 @@ td {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Adjust opacity to control brightness */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {
@@ -299,7 +300,6 @@ td {
   text-align: center;
   font-family: "Arial", sans-serif;
 }
-
 
 /* History Section */
 
@@ -364,7 +364,6 @@ td {
 }
 
 .facilities h2 {
-  font-size: 1.5em;
   margin-bottom: 10px;
 }
 
@@ -395,7 +394,6 @@ td {
 }
 
 .facility-item h3 {
-  font-size: 1.2em;
   margin: 0;
   color: #52d626;
   padding: 5px 0;
@@ -404,6 +402,12 @@ td {
 .facility-item p {
   font-size: 0.9em;
   margin: 0;
+}
+
+/* CONTACT PAGE */
+
+.contact-info {
+  padding: 90px 20px 20px;
 }
 
 /* Footer */
