@@ -166,7 +166,9 @@ footer {
 }
 
 .hero p,
-.hero-text p {
+.hero-text p,
+.contact-info p,
+p {
   font-size: 1em;
   margin-bottom: 20px;
 }
